@@ -45,13 +45,18 @@ nav a:hover{
   color: #ffd000;
 }
 
-.mainpage{
-  background: #fff;
+main{
+  min-height:88vh;
 }
 
 aside{
   display: none;
 }
+
+.mainpage{
+  background: #fff;
+}
+
 
 @@media screen and (min-width:680px) {
   .mainpage{
