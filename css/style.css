@@ -64,6 +64,8 @@ aside{
     grid-template-columns: auto 230px;
     grid-template-rows: auto;
     background: #fff;
+    max-width: 1080px;
+    margin: 1em auto 1em auto;
   }
 
   aside{
