@@ -17,7 +17,7 @@ body{
 
 header, footer{
   background: #111;
-  color: #fff;
+  color: #ffd000;
   text-align: center;
   border-bottom:.25em solid #ffd000;
 }
@@ -30,15 +30,15 @@ footer{
 }
 
 nav{
-  display:flex;
-  justify-content: space-evenly;
   padding: .5em 0em;
 }
 
 nav a{
+  display: block;
   text-decoration: none;
   color: #666;
   transition: .3s;
+  padding: .3em;
 }
 
 nav a:hover{
@@ -46,26 +46,77 @@ nav a:hover{
 }
 
 main{
-  min-height:88vh;
+  min-height:85vh;
 }
+  main h2 {
+    text-align: center;
+    padding: .5em;
+    font-size: 2em;
+    font-weight: 300;
+  }
 
 aside{
   display: none;
+}
+  aside h4{
+    font-size: 1.5em;
+    color: #d6ae00;
+    padding: .3em;
+  }
+
+p {
+  padding: .3em;
+  margin-bottom: .3em;
+}
+
+button{
+  background: #ffd000;
+  color: #111;
+  border: .0125em solid #111;
+  padding: .3em .5em;
+  transition: .3s;
+}
+  button:hover{
+    background: #d6ae00;
+  }
+  button:disabled{
+    background: #bbb;
+    color:#666;
+    border: .0125em solid #666;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
 }
 
 .mainpage{
   background: #fff;
 }
 
+.listbox{
+  padding: .5em;
+  margin-bottom: .5em;
+}
+.listbox h3{
+  padding: .5em;
+  font-size: 1.7em;
+  font-weight: 300;
+  color: #d6ae00;
+}
 
 @media screen and (min-width:680px) {
   .mainpage{
     display: grid;
-    grid-template-columns: auto 230px;
+    grid-template-columns: auto 310px;
     grid-template-rows: auto;
     background: #fff;
     max-width: 1080px;
     margin: 1em auto 1em auto;
+  }
+
+  nav{
+    display:flex;
+    justify-content: space-evenly;
   }
 
   aside{
