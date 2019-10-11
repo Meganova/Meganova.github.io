@@ -136,6 +136,25 @@ header {
 		margin-top: .5em;
 	}
 
+#imprint {
+	color: #666;
+	font-size: .8em;
+	padding: 1em;
+}
+	#imprint h4 {
+		font-size: 2em;
+		padding-top: 2em;
+		padding-bottom: 1em;
+	}
+	#imprint h6 {
+		font-size: 1.5em;
+		padding-top: 1em;
+	}
+	#imprint .small {
+		font-size: .6em;
+		margin-top: 1em;
+	}
+
 @media screen and (min-width: 680px) {
 	header {
 		height: 90vh;
@@ -173,6 +192,13 @@ header {
 		height: 80vh;
 	}
 	
+	#imprint {
+		padding: 1em 5em;
+	}
+		#imprint .small {
+			columns: 2;
+		}
+	
 	.size-30 {
 		width: 30%;
 	}
@@ -193,5 +219,11 @@ header {
 	}
 	#skills .boxed {
 		padding: 2em 7em;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	#imprint .small {
+		columns: 3;
 	}
 }
