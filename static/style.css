@@ -58,6 +58,9 @@ header {
 	header button {
 		margin-top: .5em;
 	}
+	header p {
+		text-align: left;
+	}
 
 .box {
 	background:rgba(0, 0, 0, .4);
