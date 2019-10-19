@@ -132,7 +132,7 @@ header {
 		#contact input:focus, #contact textarea:focus {
 			background: rgba(255, 255, 255, 0.7);
 		}
-		#contact textarea:hover, #contact textarea:active, #contact textarea:focus {
+		#contact textarea:active, #contact textarea:focus {
 			height: 10em;
 		}
 	#contact button {
